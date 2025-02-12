@@ -41,7 +41,7 @@ func (m *OpaLivePlayground) BuildAndPushImage(ctx context.Context, src *dagger.D
 			Exclude: []string{"node_modules", "js/dist", "js/node_modules", "go.work", "go.work.sum", ".idea", "__htmgo"},
 		}).
 		WithExec([]string{"mkdir", "-p", "/src/__htmgo"}).
-		WithExec([]string{"wget", "-q", "-O", "/src/__htmgo/tailwind", "https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64"}).
+		WithExec([]string{"wget", "-q", "-O", "/src/__htmgo/tailwind", "https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64-musl"}).
 		WithExec([]string{"chmod", "+x", "/src/__htmgo/tailwind"}).
 		WithExec([]string{"go", "run", "github.com/maddalax/htmgo/cli/htmgo@latest", "build"})
 
