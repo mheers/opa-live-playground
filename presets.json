@@ -1,0 +1,15 @@
+[
+    {
+        "name": "default",
+        "description": "Default preset",
+        "policy": "data.simple.authz",
+        "input": {
+            "input": {
+                "card": "123-456-7890",
+                "email": "marcel@heers.it",
+                "password": "abcdef",
+                "salary": 5
+            }
+        }
+    }
+]

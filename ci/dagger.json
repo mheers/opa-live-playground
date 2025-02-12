@@ -1,0 +1,6 @@
+{
+  "name": "opa-live-playground",
+  "engineVersion": "v0.14.0",
+  "sdk": "go",
+  "source": "dagger"
+}

@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#policyRego {
+    height: 250px; 
+    width: 100%;
+}
+
+#userJson {
+    height: 250px; 
+    width: 100%;
+}
+
+#inputData {
+    height: 250px;
+    width: 100%;
+}
+
+#evaluationResult {
+    height: 200px;
+    width: 100%;
+}
+
+ @media screen and (min-width: 1920px) {
+    #policyRego {
+        height: 250px; 
+        width: 100%;
+    }
+    #inputData {
+        height: 250px;
+        width: 100%;
+    }
+    #evaluationResult {
+        height: 200px;
+        width: 100%;
+    }
+  }
+
+   @media screen and (min-width: 2560px) {
+    #policyRego {
+        height: 350px; 
+        width: 100%;
+    }
+    #inputData {
+        height: 350px;
+        width: 100%;
+    }
+    #evaluationResult {
+        height: 300px;
+        width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 3000px) {
+    #policyRego {
+        height: 450px; 
+        width: 100%;
+    }
+    #inputData {
+        height: 450px;
+        width: 100%;
+    }
+    #evaluationResult {
+        height: 400px;
+        width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 3360px) {
+    #policyRego {
+        height: 500px; 
+        width: 100%;
+    }
+    #inputData {
+        height: 500px;
+        width: 100%;
+    }
+    #evaluationResult {
+        height: 500px;
+        width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 3800px) {
+    #policyRego {
+        height: 500px; 
+        width: 100%;
+    }
+    #inputData {
+        height: 500px;
+        width: 100%;
+    }
+    #evaluationResult {
+        height: 600px;
+        width: 100%;
+    }
+  } 
